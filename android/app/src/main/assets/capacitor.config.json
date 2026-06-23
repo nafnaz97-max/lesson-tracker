@@ -1,0 +1,33 @@
+{
+	"appId": "com.schoolapp.teachertracker",
+	"appName": "Grade 6-8 Teacher Tracker",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"server": {
+		"androidScheme": "https",
+		"iosScheme": "capacitor",
+		"hostname": "localhost"
+	},
+	"android": {
+		"allowMixedContent": true,
+		"webContentsDebuggingEnabled": false,
+		"captureInput": true,
+		"logServerPort": 8888
+	},
+	"ios": {
+		"contentInset": "automatic",
+		"scrollEnabled": true
+	},
+	"plugins": {
+		"LocalNotifications": {
+			"smallIcon": "ic_stat_icon_config_sample",
+			"iconColor": "#00695c",
+			"sound": "notification",
+			"importance": 5,
+			"vibrate": true
+		},
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	}
+}

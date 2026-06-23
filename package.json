@@ -22,9 +22,10 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
+    "@capacitor/android": "^5.7.8",
+    "@capacitor/app": "^5.0.0",
     "@capacitor/core": "^5.0.0",
     "@capacitor/local-notifications": "^5.0.0",
-    "@capacitor/app": "^5.0.0",
     "@capacitor/status-bar": "^5.0.0"
   },
   "devDependencies": {

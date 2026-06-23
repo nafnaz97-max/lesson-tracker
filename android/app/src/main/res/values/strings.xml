@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Grade 6-8 Teacher Tracker</string>
+    <string name="title_activity_main">Grade 6-8 Teacher Tracker</string>
+    <string name="package_name">com.schoolapp.teachertracker</string>
+    <string name="custom_url_scheme">com.schoolapp.teachertracker</string>
+</resources>
